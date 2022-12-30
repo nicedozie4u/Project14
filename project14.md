@@ -500,6 +500,8 @@ sudo apt install -y zip libapache2-mod-php phploc php-{xml,bcmath,bz2,intl,gd,mb
 
 4. Spin up another server that will host the jfrog artifactory 
 
+![new pipeline](./images/atifactory%20instance.png)
+
 ![new pipeline](./images/task%20install%20artifactory.png)
 
 ![new pipeline](./images/jenkins%20build%20with%20ci.png)
@@ -512,7 +514,7 @@ The Artifactory plugin will be used to easily upload code artifacts into an Arti
 
 5. In Jenkins UI configure Artifactory
 
-![new pipeline](./images/atifactory%20instance.png)
+
 
 ![new pipeline](./images/artifactory%20login.png)
 
