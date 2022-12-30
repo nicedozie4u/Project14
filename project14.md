@@ -824,9 +824,9 @@ stage('SonarQube Quality Gate') {
 ```
 
 
-[](./images/final.png)
+![](./images/final.png)
 
-[](./images/sonarqube%20dashboard.png)
+![](./images/sonarqube%20dashboard.png)
 
 
 
