@@ -219,6 +219,8 @@ Let us see this in action.
 
 1. Create a new git branch and name it `feature/jenkinspipeline-stages`
 
+![new pipeline](./images/create%20new%20branch.png)
+
 2. Currently we only have the `Build` stage. Let us add another stage called `Test`. Paste the code snippet below and push the new changes to GitHub.
 
 ```
@@ -245,21 +247,25 @@ Let us see this in action.
 }
 ```
 
+![new pipeline](./images/update%20jenkinsfile.png)
+
 3. To make your new branch show up in Jenkins, we need to tell Jenkins to scan the repository.
 
 4. Navigate to the Ansible project and click on "Scan repository now"
 
 5. Refresh the page and both branches will start building automatically. You can go into Blue Ocean and see both branches there too.
 
-6. In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the pipeline launch build for the new branch
-
-![new pipeline](./images/create%20new%20branch.png)
-
-![new pipeline](./images/update%20jenkinsfile.png)
-
 ![new pipeline](./images/new%20branch%20found.png)
 
-![new pipeline](./images/launch%20instance.png
+![new pipeline](./images/launch%20instance.png)
+
+6. In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the pipeline launch build for the new branch
+
+
+
+
+
+
 
 ![new pipeline](./images/new%20branch%20running.png)
 
