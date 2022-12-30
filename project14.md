@@ -464,6 +464,12 @@ We already have tooling website as a part of deployment through Ansible. Here we
 
 `https://github.com/darey-devops/php-todo.git`
 
+![new pipeline](./images/fork%20and%20clone%20repo.png)
+
+![new pipeline](./images/php-todo%20repo%20cloned.png)
+
+![new pipeline](./images/open%20php-todo%20folder.png)
+
 
 2. On you Jenkins server, install PHP, its dependencies and Composer tool (Feel free to do this manually at first, then update your Ansible accordingly later)
 
@@ -477,12 +483,20 @@ systemctl enable php-fpm
 
 sudo apt install -y zip libapache2-mod-php phploc php-{xml,bcmath,bz2,intl,gd,mbstring,mysql,zip}
 
+![new pipeline](./images/install%20php.png)
+
+![new pipeline](./images/install%20composer.png)
+
 
 3. Install Jenkins plugins
 
 * Plot plugin
 
+![new pipeline](./images/install%20plot%20plugin.png)
+
 * Artifactory plugin
+
+![new pipeline](./images/install%20artifactory%20plugin.png)
 
 4. Spin up another server that will host the jfrog artifactory 
 
