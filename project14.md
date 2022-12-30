@@ -500,9 +500,11 @@ sudo apt install -y zip libapache2-mod-php phploc php-{xml,bcmath,bz2,intl,gd,mb
 
 4. Spin up another server that will host the jfrog artifactory 
 
-![open port for artifactory](./Images/open%20ports%20for%20artifactory.PNG)
+![new pipeline](./images/task%20install%20artifactory.png)
 
-![jfrog homepage](./Images/jforg%20homepage.PNG)
+![new pipeline](./images/jenkins%20build%20with%20ci.png)
+
+![new pipeline](./images/artifactory%20playbook%20successful.png)
 
 
 We will use plot plugin to display tests reports, and code coverage information.
@@ -511,6 +513,22 @@ The Artifactory plugin will be used to easily upload code artifacts into an Arti
 5. In Jenkins UI configure Artifactory
 
 ![Configure Artifactory](./Images/configure%20artifactory%20on%20jenkins.PNG)
+
+![new pipeline](./images/artifactory%20jenkins%20successful.png)
+
+![new pipeline](./images/artifactory%20login.png)
+
+![new pipeline](./images/artifactory%20landing%20page.png)
+
+![new pipeline](./images/create%20artifactory%20repo.png)
+
+![new pipeline](./images/configure%20artifactory%20on%20jenkins.png)
+
+![new pipeline](./images/create%20homestead%20dbuser.png)
+
+![new pipeline](./images/create%20jenkinsfile%20for%20todo.png)
+
+![new pipeline](./images/atifactory%20instance.png)
 
 
 ## **Phase 2 – Integrate Artifactory repository with Jenkins**
