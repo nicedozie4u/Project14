@@ -199,7 +199,7 @@ Back to the pipeline again, this time click "Build now"
 
 ![new pipeline](./images/ansible%20conf01b.png)
 
-![new pipeline](./images/ansible%20conf02.png)
+
 
 
 This will trigger a build and you will be able to see the effect of our basic `Jenkinsfile` configuration by going through the console output of the build.
@@ -212,7 +212,7 @@ To really appreciate and feel the difference of Cloud Blue UI, it is recommended
 
 3. Click on the play button against the branch
 
-![first build](./Images/echo%20building%20stage.PNG)
+![new pipeline](./images/ansible%20conf02.png)
 
 
 Let us see this in action.
