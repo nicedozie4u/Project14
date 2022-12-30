@@ -433,9 +433,15 @@ pipeline {
 
 3. In the Ansible execution section of the Jenkinsfile, remove the hardcoded inventory/dev and replace with ${inventory}
 
-![CI/CD for nginx](./Images/CI-CD%20for%20nginx%20and%20DB.PNG)
+![new pipeline](./images/Screenshot%20at%20Dec%2015%2011-48-19.png)
 
-![CI/CD for nginx](./Images/CI-CD%20for%20nginx%20and%20DB%20cont'd.PNG)
+![new pipeline](./images/Screenshot%20at%20Dec%2015%2011-55-56.png)
+
+![new pipeline](./images/Ansible%20playbook%20running%20again.png)
+
+![new pipeline](./images/main%20branch%20pull%20request%20again.png)
+
+![new pipeline](./images/main%20branch%20successful%20again.png)
 
 ## **Note: Ensure that Ansible runs against the Dev environment successfully.**
 
