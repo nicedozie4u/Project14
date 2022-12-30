@@ -550,13 +550,21 @@ CREATE USER 'homestead'@'%' IDENTIFIED BY 'sePret^i';
 GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'%';
 ```
 
-![create homestead database](./Images/create%20homestead%20database%20and%20user.PNG)
+![new pipeline](./images/update%20siteyml.png)
 
-![database created](./Images/database%20created.PNG)
+![new pipeline](./images/mysql%20playbook%20successful.png)
+
+![new pipeline](./images/confirm%20database%20config.png)
+
+![new pipeline](./images/create%20new%20jenkins%20pipeline.png)
+
+![new pipeline](./images/install%20mysql-client.png)
+
+![new pipeline](./images/edit%20binding%20address.png)
 
 1. Update the database connectivity requirements in the file .env.sample
 
-![create homestead database](./Images/create%20homestead%20database%20and%20user.PNG)
+![new pipeline](./images/update%20env%20file.png)
 
 
 2. Update Jenkinsfile with proper pipeline configuration
