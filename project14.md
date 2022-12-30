@@ -568,6 +568,13 @@ GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'%';
 
 ![new pipeline](./images/update%20env%20file.png)
 
+![new pipeline](./images/edit%20database%20connection%20details.png)
+
+![new pipeline](./images/allow%20port%203306.png)
+
+![new pipeline](./images/php-todo%20jenkins%20running.png)
+
+
 
 2. Update Jenkinsfile with proper pipeline configuration
 
@@ -605,7 +612,27 @@ pipeline {
 ```
 **When running we get an error. This is due to the fact that the Jenkins Server being the client server cant communicate with the DB server.**
 
-![error db connection](./Images/error%20due%20to%20DB%20connection.PNG)
+![new pipeline](./images/update%20unit%20test%20stage.png)
+
+![new pipeline](./images/unit%20test%20executed.png)
+
+![new pipeline](./images/code%20analysis%20.png)
+
+![new pipeline](./images/install%20php-loc.png)
+
+![new pipeline](./images/plot%20code%20report.png)
+
+![new pipeline](./images/plot.png)
+
+![new pipeline](./images/install%20php-loc02.png)
+
+![new pipeline](./images/update%20package%20artifactory.png)
+
+![new pipeline](./images/upload%20artifactory.png)
+
+![new pipeline](./images/confirm%20artifact.png)
+
+
 
 3. We need to install mysql client on the Jenkins server and configure it.
 
