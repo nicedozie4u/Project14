@@ -253,7 +253,15 @@ Let us see this in action.
 
 6. In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the pipeline launch build for the new branch
 
-![feature-jenkinspipeline](./Images/feature-jenkinspipeline.PNG)
+![new pipeline](./images/create%20new%20branch.png)
+
+![new pipeline](./images/update%20jenkinsfile.png)
+
+![new pipeline](./images/new%20branch%20found.png)
+
+![new pipeline](./images/launch%20instance.png
+
+![new pipeline](./images/new%20branch%20running.png)
 
 
 
