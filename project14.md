@@ -140,7 +140,7 @@ To do this,
 
 4. Select Github
 
-![choose repo](./Images/choose%20repo.PNG)
+![choose repo](./images/choose%20repo.PNG)
 
 5. Connect Jenkins with GitHub
 
