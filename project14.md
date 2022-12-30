@@ -406,7 +406,7 @@ ansible_python_interpreter=/usr/bin/python
 
 ![jenkins-ansible connection](./images/update%20jenkinsfile%20again.png)
 
-![Ansible-config](./Images/update%20credentials.png
+![Ansible-config](./images/update%20credentials.png
 
 ![Ansible plugin](./images/update%20credentials02.png)
 
