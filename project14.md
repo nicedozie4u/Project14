@@ -159,12 +159,6 @@ To do this,
 
 ![new pipeline](./images/ansible-project%20created.png)
 
-![new pipeline](./images/ansible%20conf01.png)
-
-![new pipeline](./images/ansible%20conf01b.png)
-
-![new pipeline](./images/ansible%20conf02.png)
-
 
 At this point you may not have a Jenkinsfile in the Ansible repository, so Blue Ocean will attempt to give you some guidance to create one. But we do not need that. We will rather create one ourselves. So, click on Administration to exit the Blue Ocean console.
 
@@ -172,7 +166,8 @@ At this point you may not have a Jenkinsfile in the Ansible repository, so Blue 
 
 Inside the Ansible project, create a new directory `deploy` and start a new file `Jenkinsfile` inside the directory.
 
-![Create jenkinsfile](./Images/create%20jenkinsfile.PNG)
+![Create jenkinsfile](./images/create%20new%20branch.png)
+
 
 
 Add the code snippet below to start building the `Jenkinsfile` gradually. This pipeline currently has just one stage called Build and the only thing we are doing is using the `shell script` module to echo `Building Stage`
@@ -195,13 +190,16 @@ pipeline {
 
 Now go back into the Ansible pipeline in Jenkins, and select configure
 
-![Configure ansible-config](./Images/configure%20ansible-config.PNG)
+![new pipeline](./images/ansible%20conf01.png)
+
 
 
 Back to the pipeline again, this time click "Build now"
 
 
-![Build Now](./Images/build%20now.PNG)
+![new pipeline](./images/ansible%20conf01b.png)
+
+![new pipeline](./images/ansible%20conf02.png)
 
 
 This will trigger a build and you will be able to see the effect of our basic `Jenkinsfile` configuration by going through the console output of the build.
