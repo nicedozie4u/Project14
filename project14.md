@@ -269,6 +269,11 @@ Let us see this in action.
 
 ![new pipeline](./images/new%20branch%20running.png)
 
+![new pipeline](./images/create%20pull%20request.png)
+
+![new pipeline](./images/merge%20pull%20request.png)
+
+![new pipeline](./images/updated%20main%20branch.png)
 
 
 ## **RUNNING ANSIBLE PLAYBOOK FROM JENKINS**
@@ -278,14 +283,18 @@ Now that you have a broad overview of a typical Jenkins pipeline. Let us get the
 
 For instructions on installations of the dependencies use the link below:
 
-[here](https://github.com/Tonybesto/ansible-config/blob/main/README.md)
+[here](https://github.com/nicedozie4u/ansible-config/blob/main/README.md)
 
 1. Installing Ansible on Jenkins
 
 
 2. Installing Ansible plugin in Jenkins UI
 
-![Ansible plugin](./Images/install%20ansible%20plugin.PNG)
+![Ansible plugin](./images/additional%20task.png)
+
+![new pipeline](./images/additional%20task%20running.png)
+
+![new pipeline](./images/additional%20task%20main%20branch%20running.png)
 
 3. Creating Jenkinsfile from scratch. (Delete all you currently have in there and start all over to get Ansible to run successfully)
 
