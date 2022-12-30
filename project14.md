@@ -636,20 +636,6 @@ pipeline {
 
 3. We need to install mysql client on the Jenkins server and configure it.
 
-![new pipeline](./images/create%20todo%20server.png)
-
-![new pipeline](./images/todo%20siteyml.png)
-
-
-The DB migration job passes after setting up the MYSQL client on the Jenkins server
-
-![new pipeline](./images/edit%20deploymentyml.png)
-
-![new pipeline](./images/generate%20password.png)
-
-![new pipeline](./images/ansible-playbook%20runnining%20successfully.png)
-
-![new pipeline](./images/update%20ci%2004.png)
 
 
 4. Bundle the application code into an artifact (archived package) and upload to Artifactory
@@ -690,7 +676,21 @@ stage ('Upload Artifact to Artifactory') {
         }
 ```
 
-![todo to artifactory](./Images/todo%20to%20artifactory.PNG)
+![new pipeline](./images/create%20todo%20server.png)
+
+![new pipeline](./images/todo%20siteyml.png)
+
+
+The DB migration job passes after setting up the MYSQL client on the Jenkins server
+
+![new pipeline](./images/edit%20deploymentyml.png)
+
+![new pipeline](./images/generate%20password.png)
+
+![new pipeline](./images/ansible-playbook%20runnining%20successfully.png)
+
+![new pipeline](./images/update%20ci%2004.png)
+
 
 Deploy the application to the dev environment by launching Ansible pipeline. Ensure you update your inventory/dev with the Private IP of your TODO-server and your site.yml file is updated with todo play.
 
@@ -701,9 +701,9 @@ stage ('Deploy to Dev Environment') {
     }
   }
 ```
-![deployment to dev env](./Images/deployment%20to%20dev%20env.PNG)
+![](./images/update%20siteyml%2004.png)
 
-![todo app](./Images/todo%20app.PNG)
+![](./images/todo%20site.png)
 
 
 ## SONARQUBE INSTALLATION
