@@ -636,12 +636,20 @@ pipeline {
 
 3. We need to install mysql client on the Jenkins server and configure it.
 
-![edit the env](./Images/edit%20the%20env-sample.PNG)
+![new pipeline](./images/create%20todo%20server.png)
+
+![new pipeline](./images/todo%20siteyml.png)
+
 
 The DB migration job passes after setting up the MYSQL client on the Jenkins server
 
-![plot build](./Images/plot%20build.PNG)
-![plot graph](./Images/phploc%20graph.PNG)
+![new pipeline](./images/edit%20deploymentyml.png)
+
+![new pipeline](./images/generate%20password.png)
+
+![new pipeline](./images/ansible-playbook%20runnining%20successfully.png)
+
+![new pipeline](./images/update%20ci%2004.png)
 
 
 4. Bundle the application code into an artifact (archived package) and upload to Artifactory
