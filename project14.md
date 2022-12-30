@@ -140,11 +140,9 @@ To do this,
 
 4. Select Github
 
-![choose repo](./images/choose%20repo.PNG)
+![clone repo](./images/jenkins%20installed02.png)
 
 5. Connect Jenkins with GitHub
-
-![clone repo](./images/jenkins%20installed02.png)
 
 ![clone repo](./images/jenkins%20installed03.png)
 
