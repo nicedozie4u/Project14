@@ -137,15 +137,17 @@ To do this,
 
 ![blueocean setup](./images/jenkins%20installed.png)
 
-![clone repo](./images/jenkins%20installed02.png)
-
-![clone repo](./images/jenkins%20installed03.png)
 
 4. Select Github
 
 ![choose repo](./Images/choose%20repo.PNG)
 
 5. Connect Jenkins with GitHub
+
+![clone repo](./images/jenkins%20installed02.png)
+
+![clone repo](./images/jenkins%20installed03.png)
+
 
 6. Login to GitHub & Generate an Access Token
 
