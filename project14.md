@@ -512,9 +512,7 @@ The Artifactory plugin will be used to easily upload code artifacts into an Arti
 
 5. In Jenkins UI configure Artifactory
 
-![Configure Artifactory](./images/configure%20artifactory%20on%20jenkins.PNG)
-
-![new pipeline](./images/artifactory%20jenkins%20successful.png)
+![new pipeline](./images/atifactory%20instance.png)
 
 ![new pipeline](./images/artifactory%20login.png)
 
@@ -528,7 +526,7 @@ The Artifactory plugin will be used to easily upload code artifacts into an Arti
 
 ![new pipeline](./images/create%20jenkinsfile%20for%20todo.png)
 
-![new pipeline](./images/atifactory%20instance.png)
+
 
 
 ## **Phase 2 – Integrate Artifactory repository with Jenkins**
