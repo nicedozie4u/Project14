@@ -257,7 +257,7 @@ Let us see this in action.
 
 ![new pipeline](./images/new%20branch%20found.png)
 
-![new pipeline](./images/launch%20instance.png)
+
 
 6. In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the pipeline launch build for the new branch
 
