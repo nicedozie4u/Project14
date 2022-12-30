@@ -151,13 +151,19 @@ To do this,
 
 7. Copy Access Token
 
-![Generate Token](./Images/generate%20token.PNG)
+![Generate Token](./images/generate%20access%20token.png)
 
 8. Paste the token and connect
 
 9.  Create a new Pipeline
 
-![new pipeline](./Images/new%20pipeline.PNG)
+![new pipeline](./images/ansible-project%20created.png)
+
+![new pipeline](./images/ansible%20conf01.png)
+
+![new pipeline](./images/ansible%20conf01b.png)
+
+![new pipeline](./images/ansible%20conf02.png)
 
 
 At this point you may not have a Jenkinsfile in the Ansible repository, so Blue Ocean will attempt to give you some guidance to create one. But we do not need that. We will rather create one ourselves. So, click on Administration to exit the Blue Ocean console.
