@@ -751,7 +751,6 @@ When the pipeline is complete, access sonarqube from the browser using the <sona
 
 ![](./images/install%20sonarqubescanner%20on%20jenkins.png)
 
-![](./images/sonar-scanner%20properties%20edit.png)
 
 * Update Jenkins Pipeline to include SonarQube scanning and Quality Gate. Making sure to place it before the "package artifact stage" Below is the snippet for a Quality Gate stage in Jenkinsfile.
 
@@ -790,9 +789,7 @@ sonar.php.coverage.reportPaths=build/logs/clover.xml
 sonar.php.tests.reportPath=build/logs/junit.xml 
 ```
 
-
-![](./images/final.png)
-
+![](./images/sonar-scanner%20properties%20edit.png)
 
 
 ## End-to-End Pipeline Overview
@@ -827,9 +824,9 @@ stage('SonarQube Quality Gate') {
 ```
 
 
-![no deploy to dev](./Images/no%20deploy%20to%20dev%20env.PNG)
+[](./images/final.png)
 
-![sonarqube dashboard](./Images/sonarqube%20dashboard.PNG)
+[](./images/sonarqube%20dashboard.png)
 
 
 
