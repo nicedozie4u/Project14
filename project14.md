@@ -375,6 +375,9 @@ allow_world_readable_tmpfiles=true
 ssh_args = -o ControlMaster=auto -o ControlPersist=30m -o ControlPath=/tmp/ansible-ssh-%h-%p-%r -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -o ForwardAgent=yes
 ```
 
+![Ansible plugin](./images/ansiblecfg.png)
+
+
 * Remember that ansible.cfg must be exported to environment variable so that Ansible knows where to find Roles. But because you will possibly run Jenkins from different git branches, the location of Ansible roles will change. Therefore, you must handle this dynamically. You can use Linux Stream Editor sed to update the section roles_path each time there is an execution. You may not have this issue if you run only from the main branch.
 
 * If you push new changes to Git so that Jenkins failure can be fixed. You might observe that your change may sometimes have no effect. Even though your change is the actual fix required. This can be because Jenkins did not download the latest code from GitHub. Ensure that you start the Jenkinsfile with a clean up step to always delete the previous workspace before running a new one. Sometimes you might need to login to the Jenkins Linux server to verify the files in the workspace to confirm that what you are actually expecting is there. Otherwise, you can spend hours trying to figure out why Jenkins is still failing, when you have pushed up possible changes to fix the error.
@@ -401,9 +404,15 @@ ansible_python_interpreter=/usr/bin/python
 <SIT-DB-Server-Private-IP-Address>
 ```
 
-![jenkins-ansible connection](./Images/jenkins-ansible%20connection.PNG)
+![jenkins-ansible connection](./images/update%20jenkinsfile%20again.png)
 
-![Ansible-config](./Images/ansible-config.PNG)
+![Ansible-config](./Images/update%20credentials.png
+
+![Ansible plugin](./images/update%20credentials02.png)
+
+![new pipeline](./images/update%20credentials03.png)
+
+
 
 2. Update Jenkinsfile to introduce parameterization. Below is just one parameter. It has a default value in case if no value is specified at execution. It also has a description so that everyone is aware of its purpose.
 
