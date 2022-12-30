@@ -293,11 +293,7 @@ For instructions on installations of the dependencies use the link below:
 
 ![new pipeline](./images/install%20ansible%20plugin.png)
 
-![Ansible plugin](./images/additional%20task.png)
 
-![new pipeline](./images/additional%20task%20running.png)
-
-![new pipeline](./images/additional%20task%20main%20branch%20running.png)
 
 3. Creating Jenkinsfile from scratch. (Delete all you currently have in there and start all over to get Ansible to run successfully)
 
@@ -350,6 +346,12 @@ pipeline {
 
 }
 ```
+
+![Ansible plugin](./images/additional%20task.png)
+
+![new pipeline](./images/additional%20task%20running.png)
+
+![new pipeline](./images/additional%20task%20main%20branch%20running.png)
 
 Some possible errors to watch out for:
 
