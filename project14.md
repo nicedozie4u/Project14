@@ -287,8 +287,11 @@ For instructions on installations of the dependencies use the link below:
 
 1. Installing Ansible on Jenkins
 
+![new pipeline](./images/installing%20ansible.png)
 
 2. Installing Ansible plugin in Jenkins UI
+
+![new pipeline](./images/install%20ansible%20plugin.png)
 
 ![Ansible plugin](./images/additional%20task.png)
 
