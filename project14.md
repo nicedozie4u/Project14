@@ -412,7 +412,13 @@ ansible_python_interpreter=/usr/bin/python
 
 ![new pipeline](./images/update%20credentials03.png)
 
+![new pipeline](./images/global%20tool%20config.png)
 
+![new pipeline](./images/pipeline%20syntax01.png)
+
+![new pipeline](./images/pipeline%20syntax02.png)
+
+![new pipeline](./images/ansible%20playbook%20successful.png)
 
 2. Update Jenkinsfile to introduce parameterization. Below is just one parameter. It has a default value in case if no value is specified at execution. It also has a description so that everyone is aware of its purpose.
 
